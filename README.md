@@ -1,4 +1,4 @@
-
+# Write these codes in the Terminal
 wget https://www.kernel.org/pub/linux/bluetooth/bluez-5.18.tar.xz
 dpkg --get-selections | grep -v deinstall | grep bluez
 tar xvf bluez-5.18.tar.xz
