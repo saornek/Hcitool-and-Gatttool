@@ -10,6 +10,6 @@ sudo cp attrib/gatttool /usr/local/bin/
 cd
 hcitool dev
 sudo hcitool lescan
-sudo gatttool -t random -b <BLE device> -I
+sudo gatttool -t random -b  -I
 connect 
 primary
